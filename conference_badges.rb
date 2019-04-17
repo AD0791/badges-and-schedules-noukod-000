@@ -19,5 +19,10 @@ end
 def printer att
   batch_badge_creator(att).each do |badge|
     puts badge
+  end
+  assign_rooms(att).each do |assignment|
+    puts assignment
+  end
+end
 end
 
