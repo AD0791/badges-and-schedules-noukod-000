@@ -15,3 +15,4 @@ def assign_rooms speaker
     "Hello, #{sp}! You'll be assigned to room #{index+1}!"
   end
 end
+
