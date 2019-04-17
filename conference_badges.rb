@@ -3,3 +3,5 @@ def badge_maker bm
 end
 
 def batch_badge_creator bc
+  bc.inspect
+end
