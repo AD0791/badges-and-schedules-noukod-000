@@ -12,6 +12,6 @@ end
 
 def assign_rooms speaker 
   speaker.each do |sp|
-    "Hello, ! You'll be assigned to room _____!"
+    "Hello, #{sp}! You'll be assigned to room _____!"
   end
 end
