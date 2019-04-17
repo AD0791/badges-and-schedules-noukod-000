@@ -11,7 +11,7 @@ def batch_badge_creator bc
 end
 
 def assign_rooms speaker 
-  speaker.each_with_index do |sp|
-    "Hello, #{sp}! You'll be assigned to room _____!"
+  speaker.each_with_index do |sp, index|
+    "Hello, #{sp}! You'll be assigned to room #{index+1}!"
   end
 end
