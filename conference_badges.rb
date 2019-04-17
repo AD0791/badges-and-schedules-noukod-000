@@ -11,5 +11,7 @@ def batch_badge_creator bc
 end
 
 def assign_rooms speaker 
-  rooms = [1,2,3,4,5,6,7]
+  speaker.each do |sp|
+    
+  end
 end
