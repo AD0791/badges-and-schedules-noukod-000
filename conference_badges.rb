@@ -9,3 +9,4 @@ def batch_badge_creator bc
   end
   arrBadge
 end
+
