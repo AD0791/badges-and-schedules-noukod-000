@@ -10,3 +10,6 @@ def batch_badge_creator bc
   arrBadge
 end
 
+def assign_rooms speaker 
+  rooms = [1,2,3,4,5,6,7]
+end
