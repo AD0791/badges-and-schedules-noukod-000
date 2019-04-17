@@ -24,5 +24,4 @@ def printer att
     puts assignment
   end
 end
-end
 
