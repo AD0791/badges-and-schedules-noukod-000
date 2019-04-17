@@ -3,8 +3,9 @@ def badge_maker bm
 end
 
 def batch_badge_creator bc
-  #arrBadge = []
-  bc.select do |nen|
-   badge_maker(nen) 
+  arrBadge = []
+  bc.each do |nen|
+   arrBadge << badge_maker(nen) 
   end
+  arrBadge
 end
